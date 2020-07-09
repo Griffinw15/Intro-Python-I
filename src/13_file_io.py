@@ -11,9 +11,20 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 # YOUR CODE HERE
 
+with open('src/foo.txt') as data:
+    opened_data = data.read()
+    #opened_data = data.readlines()
+
+print(opened_data)
+
 # Open up a file called "bar.txt" (which doesn't exist yet) for
 # writing. Write three lines of arbitrary content to that file,
 # then close the file. Open up "bar.txt" and inspect it to make
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
+with open('src/bar.txt', 'r+') as data1:
+    written_data = data1.write('line1, 2, 3 example')
+
+#seems to be working fine
