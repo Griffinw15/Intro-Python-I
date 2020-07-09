@@ -13,6 +13,8 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 with open('src/foo.txt') as data:
     opened_data = data.read()
+    #for line in data:
+        #print(line)
     #opened_data = data.readlines()
 
 print(opened_data)

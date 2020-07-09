@@ -20,6 +20,8 @@ print(f1(1, 2))
 
 def f2(*x):
 
+    #return sum(*x)
+
     counter = 0
 
     for i in x:
