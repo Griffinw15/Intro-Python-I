@@ -12,13 +12,13 @@ class Store:
 ​
 # should Department inherit from Store? 
 class Department:
-    def __init__(self, id, name, products):
-        self.id = id
+    def __init__(self, dept_id, name, products):
+        self.dept_id = dept_id
         self.name = name
         self.products = products
 ​
     def __str__(self):
-        return f"{self.id}: {self.name}"
+        return f"{self.dept_id}: {self.name}"
 ​
 ​
 store = Store("The Dugout", [
