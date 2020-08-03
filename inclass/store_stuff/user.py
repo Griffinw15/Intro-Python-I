@@ -1,6 +1,7 @@
 class User:
-    def __init__(self, money, cart=[]):
-        self.cart = cart
+    def __init__(self, cart, money):
+        #self.cart = cart
+        self.cart = []
         self.money = money 
 ​
     def __str__(self):

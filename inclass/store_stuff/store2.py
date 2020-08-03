@@ -76,7 +76,7 @@ while True:
     products = chosen_department.products
     chosen_department.print_products()
     print()
-​
+​   #print is for spacing
     product_selection = input("Select a product to buy: ")
 ​
     # add the chosen product to the user's cart 
