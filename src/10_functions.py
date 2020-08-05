@@ -24,4 +24,4 @@ def even_odd(num):
     else:
         return "Odd"
 
-#tested in terminal and worked
+print(even_odd(num))
