@@ -20,8 +20,6 @@ print(f1(1, 2))
 
 def f2(*x):
 
-    #return sum(*x)
-
     counter = 0
 
     for i in x:
@@ -44,6 +42,8 @@ print(f2(*a))    # Should print 22
 # Note: Google "python default arguments" for a hint.
 
 # YOUR CODE HERE
+
+#works bc y gets initiated as 1, if no other y is passed
 
 def f3(x, y=1):
     return x + y

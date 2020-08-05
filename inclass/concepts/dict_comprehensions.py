@@ -20,3 +20,16 @@ for name, age in names_and_ages:
 # we want `name` as the key and `age` as the value
 d = {name: age for name, age in names_and_ages}
 ​
+# comprehensions work just as well with dicts as well 
+​
+# populate a dict with all letters of the alphabet with their corresponding 
+# place in the alphabet 
+​
+letters = "abcdefghijklmnopqrstuvwxyz"
+​
+alpha = {letter: i + 1 for i, letter in enumerate(letters)}
+​
+# for i, letter in enumerate(letters):
+#     alpha[letter] = i + 1
+​
+print(alpha)
